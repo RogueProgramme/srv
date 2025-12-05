@@ -76,8 +76,8 @@ def ping():
 # except :
 # 	port = 5000
 
-# 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
-# https://github.com/RogueProgramme/srv.git
+# 
+# 
 # port = int(port)
 # if __name__ == '__main__':
 # 	app.run(host='0.0.0.0', port=port, debug=True, threaded=True)

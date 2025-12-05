@@ -11,7 +11,6 @@ CORS(app)
 
 
 t_ids = {}
-t_ids = {}
 
 @app.route('/')
 def home():

@@ -5,4 +5,4 @@ services:
     plan: free
     region: oregon
     buildCommand: "pip install -r r.txt"
-    startCommand: "gunicorn app:app --bind 0.0.0.0:$PORT"
+    startCommand: "gunicorn srv:app --bind 0.0.0.0:$PORT"

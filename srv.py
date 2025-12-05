@@ -17,7 +17,7 @@ def home():
 	print("hello")
 	return jsonify({"Working": True})
 
-@app.route('/okk')
+@app.route('/ok')
 def ok():
 	print("hi")
 	return jsonify({"ok": 'ok'})

@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: flask-api
+    name: srv
     env: python
     plan: free
     region: oregon
